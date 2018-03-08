@@ -45,9 +45,9 @@ class CharlesActivity : AppCompatActivity(), CharlesFragment.SelectionProvider {
     private lateinit var mSelectionSpec: SelectionSpec
     private val mCategoryList = listOf(
             Category(R.drawable.ic_root_image, R.string.category_images),
-            Category(R.drawable.ic_root_video, R.string.category_videos),
-            Category(R.drawable.ic_root_audio, R.string.category_audio),
-            Category(R.drawable.ic_root_doc, R.string.category_documents))
+            Category(R.drawable.ic_root_video, R.string.category_videos))
+           // Category(R.drawable.ic_root_audio, R.string.category_audio),
+           // Category(R.drawable.ic_root_doc, R.string.category_documents))
 
     private val mFragments = listOf(
             CharlesFragment.newInstance(MediaFilterType.IMAGE),
